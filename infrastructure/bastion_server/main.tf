@@ -35,7 +35,7 @@ module "bastion_security_group" {
           from_port    = 22
           to_port      = 22
           protocol     = "tcp"
-          cidr         = ["103.12.132.183/32"]
+          cidr         = ["0.0.0.0/0"]
           source_SG_ID = []
         }
       ]
